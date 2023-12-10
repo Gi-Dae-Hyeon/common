@@ -15,4 +15,4 @@ apt update
 apt install python3.10 -y
 
 # install libraries
-pip install torch transformers datasets
+pip install torch transformers datasets faiss-gpu
