@@ -6,6 +6,7 @@ apt install curl -y
 curl -sSL https://install.python-poetry.org | python3 -
 
 echo 'export PATH="/root/.local/bin:$PATH"' > ~/.bashrc
+echo 'export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring' > ~/.bashrc
 source ~/.bashrc
 
 # install python3.10
